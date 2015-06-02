@@ -7,7 +7,10 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "~4.9.x"
+    "body-parser": "^1.12.4",
+    "crypto": "0.0.3",
+    "express": "~4.9.x",
+    "nodegit": "^0.4.0"
   },
   "engines": {
     "node": "0.12.2"
@@ -21,5 +24,8 @@
     "heroku",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "concat-stream": "^1.4.8"
+  }
 }
